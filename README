@@ -1,14 +1,16 @@
 # Excel VBA Report Formatter (Arrival/Booking Export Cleanup)
 
-A VBA macro that formats a raw Excel export into an export-ready report:
-- Resizes key columns + wraps text where needed
-- Deletes unneeded columns
+A lightweight VBA macro that turns a messy Excel export into an export-ready, consistent report.
+
+## What it does
+- Resizes key columns and wraps long text fields
+- Removes unneeded columns
 - Standardizes headers
-- Adds horizontal row borders for readability
+- Adds row borders for readability
 
 ## Use Case 1 (Demo)
 **Before:** raw export with inconsistent columns/headers  
-**After:** cleaned report layout with standardized headers
+**After:** cleaned layout with standardized headers and formatting
 
 Screenshots:
 - ![Before](images/usecase-1-before.png)
@@ -18,11 +20,16 @@ Example files:
 - `examples/usecase-1/before.xlsx`
 - `examples/usecase-1/after.xlsx`
 
+## Repo structure
+- `src/` — VBA source (`.bas`)
+- `examples/usecase-1/` — anonymized before/after Excel files
+- `images/` — screenshots for the demo
+
 ## How to run
 1. Open the workbook containing the raw export (or paste the export into a sheet).
-2. Open VBA editor (Alt+F11) and import `src/FormatAndPrepareSheet.bas`.
-3. Select the target sheet and run `FormatAndPrepareSheet`.
+2. Open the VBA editor (**Alt + F11**) and import `src/FormatAndPrepareSheet.bas`.
+3. Run `FormatAndPrepareSheet` on the target sheet.
 
 ## Notes
 - Demo data is fully anonymized / placeholder.
-- This project focuses on reducing manual reporting toil and improving consistency.
+- Goal: reduce manual reporting time and improve consistency for repeated operational reports.
