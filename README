@@ -2,6 +2,8 @@
 
 A lightweight VBA toolkit that turns raw Excel exports into consistent, operationally usable reports.
 
+![Use Case 1 Before/After](images/BeforeAndAfter.png)
+
 ## Use Case 1 — Report Formatting (Layout Cleanup)
 Formats a raw export into an export-ready report:
 - Resizes key columns and wraps long fields
