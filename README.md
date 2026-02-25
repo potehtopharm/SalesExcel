@@ -1,6 +1,6 @@
 # Excel VBA Report Formatter (Arrival/Booking Export Cleanup)
 
-A lightweight VBA toolkit that turns raw, error-filled, OnQ system reports Excel exports into consistent, operationally usable reports.
+A lightweight VBA toolkit that turns raw, error-filled, OnQ system reports Excel exports into consistent, operationally usable reports, cutting time spent by 70-80%.
 
 ![Use Case 1 Before/After](images/BeforeAndAfter.png)
 
